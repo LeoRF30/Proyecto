@@ -1,0 +1,27 @@
+﻿/* Aplicando estilos por atributo */
+input[type="text"], input[type="password"] {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Estilos por clase */
+.input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilos por ID */
+#nombre {
+    font-weight: bold;
+}
+
+/* Botones */
+.button {
+    background-color: olivedrab;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
